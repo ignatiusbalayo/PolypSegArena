@@ -1,0 +1,16 @@
+{
+  "n_segments_target": 100,
+  "compactness": 10.0,
+  "num_node_features": 17,
+  "train_graphs": 522,
+  "test_graphs": 400,
+  "train_nodes": 46420,
+  "test_nodes": 35706,
+  "train_edges": 119821,
+  "test_edges": 92091,
+  "mean_nodes_per_graph": 88.9,
+  "train_positive_node_rate": 0.1416,
+  "test_positive_node_rate": 0.1913,
+  "test_ceiling_mean_dice_perfect_node_labels": 0.8845,
+  "test_mean_dice_all_foreground": 0.3021
+}

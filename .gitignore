@@ -1,0 +1,31 @@
+# ---- Private data & secrets (NEVER commit) ----
+data/raw/
+data/private/
+encryption/private_key.pem
+encryption/labels.key
+*.key
+*.env
+*.seed
+seed.txt
+result.json
+changed.txt
+
+# Participant working files
+predictions.csv
+temp_submissions/
+
+# Release artifacts
+PolypSegArena_Dataset.zip
+PolypSegArena_Dataset/
+
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db

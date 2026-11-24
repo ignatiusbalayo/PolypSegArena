@@ -1,0 +1,9 @@
+competition_name: PolypSegArena
+task: node_classification_segmentation
+primary_metric: mean_dice      # mean per-image Dice after painting node predictions onto pixels
+secondary_metric: mean_iou     # mean per-image IoU (Jaccard)
+max_submissions_per_team: 1
+test_file: test_nodes.csv      # public file listing the ids that must be predicted
+id_column: id
+prediction_column: y_pred
+threshold: 0.5                 # node is foreground when y_pred >= threshold
