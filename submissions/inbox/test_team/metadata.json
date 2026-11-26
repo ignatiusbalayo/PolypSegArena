@@ -1,0 +1,6 @@
+{
+  "team": "test_team",
+  "model": "GCN baseline",
+  "type": "hybrid",
+  "notes": "leaderboard test"
+}
